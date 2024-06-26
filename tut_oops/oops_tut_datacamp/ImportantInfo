@@ -1,0 +1,6 @@
+The yfinance library in Python is a popular tool for accessing and downloading historical market data from Yahoo
+ Finance. It provides a convenient interface to query financial data such as stock prices,
+  historical prices, market indices, and more. Here's a detailed overview of yfinance, including installation,
+  key features, and examples of common use cases.
+
+pip cmd: pip install yfinance

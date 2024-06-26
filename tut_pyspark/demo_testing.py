@@ -3,6 +3,11 @@ import findspark
 findspark.init()
 
 spark = SparkSession.builder.appName("testing").getOrCreate()
+spark_version = spark.version
+print(f"Spark Version: {spark_version}")
+config = spark.sparkContext.getConf().getAll()
+for conf in config:
+    print(conf)
 
 data=[
     (1,2,3,4),
