@@ -1,0 +1,16 @@
+SqlServer:
+  dbname: "datapipeline2"
+  tables:
+    - city_df
+
+  hostname: "localhost"
+  port number: 3306
+  username: "root"
+  password: "saksham123"
+
+
+CsvSource:
+  filepath: '/Users/sakshamsaxena/PycharmProjects/python_tut/tut_pyspark/DataValidationYaml/Python/resources/order_header_data.csv'
+  header: true
+  inferSchema: true
+  delimiter: ','

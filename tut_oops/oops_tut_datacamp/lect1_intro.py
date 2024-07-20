@@ -42,13 +42,11 @@ class Dog:
 
 
 """
-Note: self in Python is equivalent to this in C++ or Java.
+Note: self in Python is equivalent to 'this' in C++ or Java.
 Instantiating objects
 To instantiate an object, type the class name, followed by two brackets. 
 You can assign this to a variable to keep track of the object.
 """
 
 ozzy = Dog()
-print(type(ozzy)) # <class '__main__.Dog'>
-
-
+print(type(ozzy))  # <class '__main__.Dog'>
