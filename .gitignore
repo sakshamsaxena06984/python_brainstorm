@@ -7,6 +7,6 @@ venv/
 env/
 
 
-**/resources/
+tut_pyspark/DataValidationYaml/Python/resources/
 
 
