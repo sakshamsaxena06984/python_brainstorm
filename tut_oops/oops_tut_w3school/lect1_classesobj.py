@@ -45,9 +45,9 @@ class Person:
         self.age = age
 
 
-p1 = Person("John", 36)
+# p1 = Person("John", 36)
 
-print(p1)
+# print(p1)
 
 
 # The string representation of an object WITH the __str__() function:
@@ -65,10 +65,10 @@ class Persion1:
         print("Hello, my name is : " + self.name)
 
 
-p1 = Persion1("John", 36)
-
-print(p1)
-p1.myfun()
+# p1 = Persion1("John", 36)
+#
+# print(p1)
+# p1.myfun()
 
 """
 The self Parameter
@@ -77,17 +77,17 @@ and is used to access variables that belongs to the class.
 """
 
 # Modify Object Properties
-p1.age = 34
+# p1.age = 34
 
-print(f"after modification : {p1}")
+# print(f"after modification : {p1}")
 
 # You can delete properties on objects by using the del keyword:
-del p1.age
+# del p1.age
 
-print(f"after deletion : {p1}")
+# print(f"after deletion : {p1}")
 
 # You can delete objects by using the del keyword:
-del p1
+# del p1
 
 """
 The pass Statement
@@ -99,3 +99,13 @@ class definitions cannot be empty, but if you for some reason have a class defin
 
 class Personempty:
     pass
+
+if __name__=='__main__':
+    print("------------------------------")
+    p1 = Person("John", 36)
+    print(p1)
+    print(p1.__str__())
+    print("------------------------------")
+    # p1 = Persion1("John", 36)
+    # print(p1)
+    # p1.myfun()

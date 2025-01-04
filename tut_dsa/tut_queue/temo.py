@@ -1,0 +1,6 @@
+l=list()
+l.append(2)
+l.append(2)
+l.append(2)
+l.append(2)
+print(len(l))
